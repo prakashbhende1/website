@@ -1,0 +1,19 @@
+.footer_content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+.outerborder {
+	border: 1px solid #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+.content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.txt{
+font-family: Verdana, Arial, Helvetica, sans-serif; font-weight:bold;
+	font-size: 12px;
+	color:#92593a;}

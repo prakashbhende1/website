@@ -1,0 +1,33 @@
+<HTML>
+  <HEAD>
+ <TITLE>The Official Website : Prakash Bhende</TITLE>
+ <SCRIPT LANGUAGE="javascript" SRC="rightclick.js"></SCRIPT>
+<SCRIPT LANGUAGE="javascript">
+   var arrTemp=self.location.href.split("?");
+    var picUrl = (arrTemp.length>0)?arrTemp[1]:"";
+   var NS = (navigator.appName=="Netscape")?true:false;
+
+     function FitPic()
+     {
+       iWidth = (NS)?window.innerWidth:document.body.clientWidth;
+       iHeight = (NS)?window.innerHeight:document.body.clientHeight;
+       iWidth = document.images[0].width - iWidth;
+       iHeight = document.images[0].height - iHeight;
+	   if (document.images[0].width < 780 && document.images[0].height < 600)
+	   {
+		       window.resizeBy(iWidth, iHeight);
+	   }
+
+       self.focus();
+     };
+ </SCRIPT>
+  </HEAD>
+  <BODY BGCOLOR="#FFFFFF" ONLOAD="FitPic();" TOPMARGIN="0" MARGINHEIGHT="0"
+  LEFTMARGIN="0" MARGINWIDTH="0">
+
+<SCRIPT LANGUAGE="javascript">
+ document.write( "<CENTER><img src='" + picUrl + "' border=0></CENTER>" );
+
+ </SCRIPT>
+  </BODY>
+</HTML>
